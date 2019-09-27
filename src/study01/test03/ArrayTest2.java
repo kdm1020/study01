@@ -1,4 +1,4 @@
-package study01;
+package study01.test03;
 
 public class ArrayTest2 {
 
