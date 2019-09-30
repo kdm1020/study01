@@ -18,7 +18,7 @@ public class Lotto {
 		System.out.println("니가 입력한 세번째 번호 : " + num3);
 
 		int num4 = Integer.parseInt(scan.nextLine());
-		System.out.println("니가 입력한 네번째 번호 : " + num4);
+		System.out.println("니가 입력한 네번째 번호 : " + num4);	
 
 		int num5 = Integer.parseInt(scan.nextLine());
 		System.out.println("니가 입력한 다섯번째 번호 : " + num5);
