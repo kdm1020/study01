@@ -11,7 +11,7 @@ public class Son extends Father {
 		System.out.println("나도 일을 한다.");
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {  //args = arguments
 		Son s = new Son();
 		s.work();
 	}
