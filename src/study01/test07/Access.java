@@ -24,7 +24,8 @@ class Cat {
 	public String getType() {
 		return type;
 	}
-}//set은 '값만' 입력하는거-그래서 void..//set method에는 로직을 집어넣지 않는다!  //주입을 했으면 가져오는게 있어야한다. set-get.//입력부와 출력부가 따로 있다.
+}//set은 '값만' 입력하는거-그래서 void..
+//set method에는 로직을 집어넣지 않는다!  //주입을 했으면 가져오는게 있어야한다. set-get.//입력부와 출력부가 따로 있다.
 public class Access {
 	public static void main(String[] args) {
 		Cat c = new Cat();
