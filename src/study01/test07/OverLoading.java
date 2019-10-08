@@ -1,6 +1,6 @@
 package study01.test07;
 
-public class OverLoadingCC {
+public class OverLoading {
 	public void test() {
 		System.out.println("test()메소드 호출!");
 	}
@@ -18,7 +18,7 @@ public class OverLoadingCC {
 		System.out.println("test(String, int num)str method call!");
 	}
 	public static void main(String[] args) {
-		OverLoadingCC ol =new OverLoadingCC();
+		OverLoading ol =new OverLoading();
 		
 		ol.test();
 		ol.test(1);//int
