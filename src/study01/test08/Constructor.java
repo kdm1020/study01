@@ -8,6 +8,7 @@ class Father{
 }
 //생성자의 기본조건 - 클래스명의 대소문자까지 같아야한다. 리턴값이 없다. 
 //메소드와 상당히 비슷하다.
+//동작을 강요하게끔
 public class Constructor extends Father{
 	int b=10;
 	 Constructor(){
