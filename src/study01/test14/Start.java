@@ -10,8 +10,8 @@ package study01.test14;
 }*/
 //인터페이스는 몸통을 가지려면 static, default 2가지 방법이 있다.
 class End{
-	final void test() {
-		System.out.println("난 test 메소드");
+	/*final*/ void test() {
+	System.out.println("난 test 메소드");
 	}
 }
 final class End2{
@@ -23,7 +23,7 @@ final class End2{
 public class Start extends End{
 	static final String STR_EXAM = "abc";
 	void test() {//메소드에 final을 적어서 에러.
-		System.out.println("난 start's test메소드");
+		//System.out.println("난 start's test메소드");
 	}
 	public static void main(String[] args) {
 		
