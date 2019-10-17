@@ -25,7 +25,7 @@ public class Test {
 			
 			con =DriverManager.getConnection(url,id,pwd);              //연결
 			
-			Statement stmt = con.createStatement();    //칠판
+			Statement stmt = con.createStatement();    //칠판  보통 쓰지않음. 다른거씀. 입력자가 ''를 입력하지 않아서.
 			
 			String sql = "SELECT * FROM USER_INFO";   //이부분도 대소문자 구분해야하나??상관없네;;
 			ResultSet rs = stmt.executeQuery(sql);
