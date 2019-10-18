@@ -6,7 +6,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Scanner;
 
-public class Execute {
+public class Execute2 {
 	Connection con = DBCon.getCon();
 	Scanner scan = new Scanner(System.in);
 
@@ -88,35 +88,9 @@ public class Execute {
 			e.printStackTrace();
 		}
 	}
-	void initResponse() {
-		String res = "";
-		while(!res.equals("q")) {
-			System.out.println("원하는 서비스 번호를 입력하세요.");
-			System.out.println("1. 유저 생성.");
-			System.out.println("2. 유저 삭제.");
-			System.out.println("3. 유저 수정.");
-			System.out.println("4.유저 조회.");
-			System.out.println("q. 종료.");
-			res = scan.nextLine();
-			System.out.println("선택한 명령어. "+res);	
-			if("1".equals(res)) {
-				
-			}else if("2".equals(res)) {
-				
-			}else if("3".equals(res)) {
-				
-			}else if("4".equals(res)) {
-				
-			}else if("q".equals(res)) {
-				System.out.println("시스템이 종료됩니다.");
-			}else {
-				System.out.println("입력하신 서비스 번호가 없습니다.");
-				
-			}
-		}
-	}
+
 	public static void main(String[] args) {
-		Execute ct = new Execute();
+		Execute2 ct = new Execute2();
 		Scanner scan1 = new Scanner(System.in);
 		int start = 0;
 		while (start == 0) {
