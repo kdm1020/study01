@@ -123,7 +123,7 @@ public class Execute {
 			System.out.println("1.insert.  2.delete.  3.update 4.select 5.종료");
 			String choice = scan1.nextLine();
 			int num = Integer.parseInt(choice);
-
+			
 			if (num == 1) {
 				ct.insert();
 				System.out.println("");
